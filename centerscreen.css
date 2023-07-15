@@ -1,0 +1,110 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.watching {
+  height: 5vh;
+  width: 5vh;
+  padding-right: 10px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.filter {
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 4px;
+  width: 90%;
+}
+
+.filters {
+  width: 33%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.arrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scrollflex {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/329/449/244/jumanji-welcome-to-the-jungle-jack-black-dwayne-johnson-kevin-hart-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  width: 90%;
+  justify-content: space-around;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.square-button {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.head-title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 108vh;
+}
+
+.carousel1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.one {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  border-radius: 20px;
+  width: 22vh;
+  color: white;
+}
+
+.carousel1-content {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  font-size: small;
+}
+
+.continue-watching-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 0.5rem;
+  height: 4vh;
+  width: 33vh;
+}
+
+.container {
+  padding: 2px 16px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
